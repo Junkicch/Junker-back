@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    background-color: #789f8c;
+}
+
+header {
+    display:flex;
+}
+
+h1{
+    color: #2ef124;
+    margin-left: 20px;
+    font-family: ZenDots-Regular;
+    width: 80%;
+}
+
+h2 {
+    color: #28063f;
+    font-family: Antonio;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.filtro{
+    width: 70px;
+    height: 70px;
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+.explorar{
+    background-color: black;
+    height: 700px;
+}
+
+.page1{
+    color: #2ef124;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.text {
+    height: 500px;
+    display: auto;
+    width: 100%;
+}
+.explore {
+    color: #28063f;
+    font-size: 30px;
+    font-family: Antonio;
+    text-align: center;
+    width: 100%;
+}
+
+.link {
+    width: 100%;
+    text-align: center;
+}
+
+.welcome {
+    margin: 40px;
+    font-size: 40px;
+}
+
+.decription {
+    margin-bottom: 70px;
+    font-size: 35px;
+
+}
+
+.logon {
+    color:#2ef124;
+    font-family: Antonio;
+    font-size: 25px;
+    margin-top: 30px;
+    width: 20%;
+}
+
+
+.login {
+    color:#2ef124;
+    font-family: Antonio;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.preto {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    font-size: large;
+    display: flex;
+    z-index: 1;
+}
+.salmão {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.coelho {
+    margin-left: 30px;
+    height: 30px;
+    width: 500px;
+    background-color: gray;
+}
+
+.cenoura {
+    margin-left: 20px;
+    height: 30px;
+    width: 500px;
+    background-color: gray;
+    
+}
+
+.drop {
+    height: 50px;
+    width: 50px;
+}
+
+.verde {
+    height: 50px;
+    width: 50px;
+}
+
+.artes {
+    margin:  20px 20px 0px 20px;
+    padding-left: 30px;
+    height: 500px;
+}
+
+.art {
+    display: auto;
+    margin: 4px;
+}
+
+#cavalo{
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    background-color: black;
+    display: none;
+}
+
+#cavalo a {
+    text-decoration: none;
+    color: #2ef124;
+    font-family: Antonio;
+    display: block;
+    font-size: 35px;
+    margin: 30px;
+}
+
+
+@font-face {
+    font-family: ZenDots-Regular;
+    src: url(ZenDots-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: Antonio;
+    src: url(Antonio-VariableFont_wght.ttf);
+}
+
+@media only screen and (max-width:1366px){
+    .explorar{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .artes{
+        height: fit-content;
+    }
+
+    .text{
+        height: fit-content;
+    }
+
+    .link{
+        margin-bottom: 40px;
+    }
+
+}
